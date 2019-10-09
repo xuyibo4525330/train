@@ -21,8 +21,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-	
-		
+
 		</plugins>
 	</build>
 
@@ -132,6 +131,7 @@
 			<version>1.2.2</version>
 		</dependency>
 
+
 	
 
 		<!-- 导入dbcp的jar包，用来在applicationContext.xml中配置数据库 -->
@@ -192,19 +192,19 @@
 		    <version>2.4</version>
 		    <classifier>jdk15</classifier>
 		</dependency>
-		
 
-		
+
 
 
 		<!-- log4j -->
- 		<dependency>
+		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
-		</dependency> 
+		</dependency>
 
-		
-	
+
+
+
 	</dependencies>
 </project>

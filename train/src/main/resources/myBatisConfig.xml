@@ -9,8 +9,8 @@
 	</typeAliases> 
 	
 	<mappers>
-		<mapper resource="cn/train/dao/TrainMapper.xml"/>
-		<mapper resource="cn/train/dao/UserMapper.xml"/>
+		<mapper resource="mybatis/mapper/TrainMapper.xml"/>
+		<mapper resource="mybatis/mapper/UserMapper.xml"/>
 	</mappers>
 
 </configuration>
